@@ -3,13 +3,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Alt text](https://img.shields.io/pypi/pyversions/python-binance.svg)
 
+Python notebooks and scripts to generate fisheye camera images from cubemap renders, using numpy and OpenCV.
+
 ---
 
 ## Description
 
 Here is a brief description of the different scripts included:
 
-- `FisheyeCubemap.ipynb`: given a field of view `fov` and folder `image_path` of rendered faces of the cube, maps the cubemap to a sphere and generates a fisheye image. It also allows to undistort the generated fisheye image to get the correspondent perspective version if the FoV is lower than 180º.
+- `FisheyeCubemap.ipynb`: given a field of view `fov` and folder `image_path` of rendered faces of the cube, maps the cubemap to a sphere and generates a fisheye image. It also undistorts the generated fisheye image to get the correspondent perspective version if the FoV is lower than 180º.
 
 - `Cube2Sphere.ipynb`: compare different cube-sphere mappings.
 
